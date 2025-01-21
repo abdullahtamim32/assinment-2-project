@@ -23,6 +23,19 @@
 /* nav section start */
 #navbar{
     display: flex;
+    max-width: 1158px;
+    align-items: center;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+.logo-and-logo-title{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+
 }
 /* logo section style */
 
@@ -34,10 +47,13 @@
 /* nav item links style */
 ul li{
     list-style: none;
+    margin-right: 32px;
+   
 }
 ul li a{
     text-decoration: none;
     font-size: 1.2rem;
+    
 }
 /* .link-item-1{
 
@@ -51,15 +67,9 @@ color: rgba(5, 212, 223, 1);
 .link-item-4{
 color: rgba(93, 88, 239, 1)
 }
-.pp{
-    color: red;
-}
 
 /* nav button style */
-.nav-btn-parent{
-   
-   
-}
+
 .nav-btn{
     color: white;
     border: none;
@@ -67,14 +77,62 @@ color: rgba(93, 88, 239, 1)
     font-weight: 600;
     font-size: 1.2rem;
     border-radius: 10px;
+   
     
 }
 /* dropdown button section style */
 .dropdown-img-parent{
     /* height: 50px; */
-    width: 60px;
+    width: 57px;
+    /* display: none; */
 }
 .main-dropdown-img{
     width: 100%;
 }
+
 /* nav section end */
+/* banner part start */
+.banner-big-content{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-small-content{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+/* banner button option */
+/* banner section */
+.total-banner-part-parent{
+    display: flex;
+    max-width: 1158px;
+    margin: 18px auto;
+    align-items: center;
+}
+.banner-section-btn{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(17, 17, 17, 1);
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 10px;
+}
+/* banner part end */
+/* .................... */
+
+/* main part start */
+/* main start part */
+/* Standard-Curriculum-section */
+.Standard-Curriculum-section{
+    max-width: 560px;
+    color:rgba(0, 0, 0, 1);
+    font-size: 2.9rem;
+    
+    margin: 0px auto;
+    
+    font-weight: bold;
+}
+
+
+/* main part end*/
