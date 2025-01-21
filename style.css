@@ -205,4 +205,53 @@ font-weight: bold;
    
 }
 /* three boxes part end */
+/* ,,,,,,,,,,,,,,,,,, */
+/* 2 arrow part start */
+.arrow-part-parent{
+    max-width: 130px;
+    max-height: 60px;
+    display: flex;
+    margin: 0px auto;
+    gap: 10px;
+    margin-bottom: 80px;
+
+}
+
+/* 2 round shred style */
+.round{
+height: 60px;
+width: 60px;
+/* border: 2px solid; */
+border-radius: 60%;
+
+}
+.bg-round-img{
+    background-image: url("assets/arrow-removebg-preview.png");
+   background-size: 40px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: orange;
+}
+.left-arrow{
+    transform: rotate(180deg);
+}
+.round:hover{
+    box-shadow: 0px 0px 10px yellow;
+}
+
+/* 2 arrow part end */
+/* our story main section */
+.our-stories-section-parent{
+    max-width: 460px;
+    margin: 0 auto;
+}
+.our-stories-text-parent{
+    font-weight: bold;
+    font-size: 2.9rem;
+    text-align: center;
+    
+}
+/* our story title end part */
+/* ..................... */
+/* ,,,,,,,,,,,,,,,,,,, */
 /* main part end*/
