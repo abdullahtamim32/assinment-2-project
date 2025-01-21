@@ -134,5 +134,59 @@ color: rgba(93, 88, 239, 1)
     font-weight: bold;
 }
 
+/* three boxes part start */
 
+
+
+
+/* some shared style */
+.three-box-shred-big-title{
+font-weight: bold;
+font-size: 1.5rem;
+color: rgba(32, 32, 32, 1);
+}
+.three-box-shred-small-title{
+font-weight: 500;
+font-size: 1rem;
+color: rgba(128, 128, 128, 1);
+font-family: "Raleway", serif;
+}
+.text-decoration{
+    text-decoration: none;
+}
+/* three box styles */
+/* three boxes main parent  */
+.three-box-parent-section-in-main{
+    display: flex;
+    align-items: center;
+    max-width: 1160px;
+    margin: 80px auto;
+    text-align: center;
+}
+/* only three boxes parent */
+.three-box-parent-max-width{
+    max-width: 367px;
+    border: 2px solid;
+    padding: 122px 62px;
+}
+/* three boxes read more pard (a tag part) */
+.t-box-f-a{
+color: rgba(100, 200, 255, 1);
+font-weight: bold;
+}
+.t-box-s-a{
+color: rgba(240, 170, 0, 1);
+font-weight: bold;
+
+}
+.t-box-t-a{
+    color: rgba(135, 0, 255, 1);
+    font-weight: bold;
+}
+.three-box-first-img-parrent{
+    /* width: 130px; */
+    height: 130px;
+   
+}
+/* three boxes part end */
 /* main part end*/
