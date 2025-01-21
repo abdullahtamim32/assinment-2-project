@@ -123,12 +123,20 @@ color: rgba(93, 88, 239, 1)
 
 /* main part start */
 /* main start part */
+.main-parent{
+    background-image: url(assets/bg.png);
+    background-position: top 40px;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    background-position-y: -10px;
+}
 /* Standard-Curriculum-section */
 .Standard-Curriculum-section{
     max-width: 560px;
     color:rgba(0, 0, 0, 1);
     font-size: 2.9rem;
-    
+    /* background-image: url("assets/bg.png"); 
+     background-size: 500px; */
     margin: 0px auto;
     
     font-weight: bold;
@@ -148,6 +156,7 @@ color: rgba(32, 32, 32, 1);
 .three-box-shred-small-title{
 font-weight: 500;
 font-size: 1rem;
+margin-top: 20px;
 color: rgba(128, 128, 128, 1);
 font-family: "Raleway", serif;
 }
@@ -162,26 +171,33 @@ font-family: "Raleway", serif;
     max-width: 1160px;
     margin: 80px auto;
     text-align: center;
+    gap: 28px;
+   
 }
 /* only three boxes parent */
 .three-box-parent-max-width{
     max-width: 367px;
-    border: 2px solid;
-    padding: 122px 62px;
+   box-shadow: 0px 0px 5px black;
+    padding: 70px 50px 60px 50px;
+    border-radius: 17px;
 }
 /* three boxes read more pard (a tag part) */
 .t-box-f-a{
 color: rgba(100, 200, 255, 1);
 font-weight: bold;
+/* margin-top: 35px; */
 }
 .t-box-s-a{
 color: rgba(240, 170, 0, 1);
 font-weight: bold;
+/* margin-top: 50px; */
 
 }
 .t-box-t-a{
     color: rgba(135, 0, 255, 1);
     font-weight: bold;
+   
+
 }
 .three-box-first-img-parrent{
     /* width: 130px; */
