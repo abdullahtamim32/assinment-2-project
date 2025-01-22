@@ -183,19 +183,30 @@ font-family: "Raleway", serif;
 /* second box gradient use */
 .second-box-parent-section-in-main{
     background-image: linear-gradient(to top, white 80%, rgba(240, 168, 0, 0.45));
+    
 }
 /* third box gradient use */
 .third-box-parent-section-in-main{
     background-image: linear-gradient(to top, white 80%, rgba(147, 87, 226, 0.399));
+    max-height: 425px;
 }
 /* linier grdient style end */
 /* only three boxes parent */
 .three-box-parent-max-width{
-    max-width: 367px;
+    max-width: 390px;
    box-shadow: 0px 0px 5px black;
-    padding: 70px 50px 60px 50px;
-    border-radius: 17px;
+    padding: 70px 60px 50px 70px;
+    margin: 0 auto;;
+    border-radius: 15px;
 }
+
+    .t-box-width-height{
+   max-width: 347.52px;
+   max-height: 310px;
+   
+   
+}
+
 /* three boxes read more pard (a tag part) */
 .t-box-f-a{
 color: rgba(100, 200, 255, 1);
@@ -256,6 +267,14 @@ border-radius: 60%;
 
 /* 2 arrow part end */
 /* our story main section */
+.our-stories-and-to-btn-sec{
+    background-image: url(assets/bg.png);
+    background-position: 100px;
+
+    
+    background-image: linear-gradient(to top, rgba(212, 137, 8, 0.309) 60%, white);
+    height: 930px;
+}
 #total-our-story-to-footer{
     background-image: url("assets/bg.png");
     /* background-size: 200px; */
@@ -268,8 +287,8 @@ border-radius: 60%;
     margin-top: 90px;
     margin-bottom: 60px;
     background-image: url(assets/bg.png);
-    background-size: px;
-    background-position: ;
+    /* background-size: px; */
+    /* background-position: ; */
 }
 .our-stories-text-parent{
     font-weight: bold;
@@ -305,6 +324,7 @@ border-radius: 60%;
 .big-box{
 max-width: 538px;
 max-height: 630px;
+background-color: white;
 /* border: 2px solid red; */
 box-shadow: 0px 0px 5px black;
 border-radius: 16px;
@@ -364,6 +384,7 @@ gap: 19px;
     max-height: 300px;
     box-shadow: 0px 0px 5px black;
     border-radius: 13px;
+    background-color: #fff;
 }
 /* four box same button */
 .five-all-btn{
@@ -400,11 +421,14 @@ padding: 0px 50px 20px 34px;
 /* main last btn style start */
 .main-end-button-total-parent{
     max-width: 200px;
-
+    /* max-height: 140px; */
+background-image: url("assets/bg.png");
+/* background-position: top cenetr; */
+background-position-x: center;
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 60px;
-
+text-align: center;
 
 }
 .real-btn-end{
@@ -415,12 +439,15 @@ padding: 0px 50px 20px 34px;
     font-weight: bold;
     border-radius: 12px;
     border: none;
+    
 }
 /* main last btn style end*/
 /* footer section style start */
 footer{
     /* max-width: 1670px; */
     height: 519px;
+   
+    
 }
 /* logo and all of footer parent  */
 /* total footer parent part start*/
