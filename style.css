@@ -172,8 +172,23 @@ font-family: "Raleway", serif;
     margin: 80px auto;
     text-align: center;
     gap: 28px;
+    /* border: 2px solid; */
    
 }
+/* linier grdient style start*/
+/* first box gradient use */
+.first-box-parent-section-in-main {
+    background-image: linear-gradient(to top, rgb(255, 254, 255) 80%, rgba(153, 209, 255, 0.678));
+}
+/* second box gradient use */
+.second-box-parent-section-in-main{
+    background-image: linear-gradient(to top, white 80%, rgba(240, 168, 0, 0.45));
+}
+/* third box gradient use */
+.third-box-parent-section-in-main{
+    background-image: linear-gradient(to top, white 80%, rgba(147, 87, 226, 0.399));
+}
+/* linier grdient style end */
 /* only three boxes parent */
 .three-box-parent-max-width{
     max-width: 367px;
@@ -241,11 +256,20 @@ border-radius: 60%;
 
 /* 2 arrow part end */
 /* our story main section */
+#total-our-story-to-footer{
+    background-image: url("assets/bg.png");
+    /* background-size: 200px; */
+    /* background-repeat: no-repeat; */
+    /* background-position: top center; */
+}
 .our-stories-section-parent{
     max-width: 460px;
     margin: 0 auto;
     margin-top: 90px;
     margin-bottom: 60px;
+    background-image: url(assets/bg.png);
+    background-size: px;
+    background-position: ;
 }
 .our-stories-text-parent{
     font-weight: bold;
@@ -393,3 +417,68 @@ padding: 0px 50px 20px 34px;
     border: none;
 }
 /* main last btn style end*/
+/* footer section style start */
+footer{
+    /* max-width: 1670px; */
+    height: 519px;
+}
+/* logo and all of footer parent  */
+/* total footer parent part start*/
+#total-logo-and-content-part{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+.position{
+    position: relative;
+    top: 64px;
+}
+/* total footer parent part end*/
+
+
+/* footer shared style start */
+.footer-shared-style{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+}
+/* footer shared style end*/
+
+
+/* logo and logo title part */
+.logo-and-logo-title-footer-part{
+    display: flex;
+    align-items: center;
+    max-width: 299px;
+    max-height: 200px;
+    gap: 10px;
+}
+
+/* about school section part */
+.about-school-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+/* some social media part start*/
+/* ........................... */
+/* social media tittle part star */
+.social-media-title-part{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+}
+/* social media tittle part end */
+/* .............................. */
+/* social media img part */
+.social-medias-in-footer{
+    display: flex;
+    gap: 10px;
+}
+/* some social media part end*/
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+/* footer section style end */
