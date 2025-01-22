@@ -244,6 +244,8 @@ border-radius: 60%;
 .our-stories-section-parent{
     max-width: 460px;
     margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
 .our-stories-text-parent{
     font-weight: bold;
@@ -255,3 +257,139 @@ border-radius: 60%;
 /* ..................... */
 /* ,,,,,,,,,,,,,,,,,,, */
 /* main part end*/
+
+/* ...................... */
+/* five boxes style */
+/* five box main parent */
+.total-5-box-main-parent{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 18px;
+    /* justify-content: center; */
+}
+/* ..................... */
+/* five box shered style start */
+.five-box-font-family{
+    font-family: "Raleway", serif;
+}
+/* five box shered style end */
+/* ................. */
+
+/* big box style start */
+/* big box main parent */
+.big-box{
+max-width: 538px;
+max-height: 630px;
+/* border: 2px solid red; */
+box-shadow: 0px 0px 5px black;
+border-radius: 16px;
+}
+/* big box img part */
+.main-five-box-img-box{
+    max-width: 540px;
+    max-height: 337px;
+    /* padding-right: 0px; */
+/* padding: 10px 10px 10px 10px; */
+    border-radius: 13px;
+}
+/* big box button */
+.big-box-button{
+    background-color: skyblue;
+    padding: 15px 19px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    position: relative;
+    top: -29px;
+    left: 20px;
+    
+}
+/* big box big title */
+.big-box-big-tittle-in-five-box{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    padding: 10px 80px 20px 38px;
+}
+/* big box small title */
+.big-box-small-tittle-in-five-box{
+    font-family: "Raleway", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(102, 102, 102, 1);
+    /* padding: 0px 60px 20px 30px; */
+}
+
+/* ................. */
+/* small four box part start */
+/* ...... */
+/* small boxex main parent start 
+*/
+.total-four-small-box-parent{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 19px;
+}
+
+/* small boxex main parent end */
+/* ......... */
+/* four box same class */
+.small-box{
+    max-width: 290px;
+    max-height: 300px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 13px;
+}
+/* four box same button */
+.five-all-btn{
+    font-family: "Raleway", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgba(149, 178, 38, 1);
+    color: white;
+    border: none;
+    padding: 10px 19px;
+    border-radius: 30px;
+    position: relative;
+    top: -25px;
+    left: 39px;
+}
+/* small-box-small-title same class */
+.small-box-small-title{
+font-size: 1rem;
+font-weight: bold;
+
+max-width: 210px;
+position: relative;
+top: -10px;
+padding: 0px 50px 20px 34px;
+}
+.small-five-img-small{
+    border-radius: 13px;
+}
+/* small four box part end */
+/* ................. */
+
+
+/* big five box style end */
+/* main last btn style start */
+.main-end-button-total-parent{
+    max-width: 200px;
+
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+
+}
+.real-btn-end{
+    color: white;
+    background-color: black;
+    padding: 10px 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+}
+/* main last btn style end*/
