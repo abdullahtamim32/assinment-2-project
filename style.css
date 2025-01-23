@@ -37,6 +37,38 @@ padding: 7px 10px;
 font-weight: 700;
 border-radius: 5px;
 }
+/* nav button */
+.nav-btn:hover{
+color: white;
+background-color: rgb(253, 255, 255);
+/* box-shadow: 0px 0px 6px black; */
+background: linear-gradient(to left,orange,skyblue);
+}
+/* banner section endroll now button */
+.banner-section-btn:hover{
+    background: linear-gradient(to left,orange,skyblue);
+}
+ .t-box-f-a:hover{
+    background-color: skyblue;
+    padding: 7px 10px;
+font-weight: 700;
+border-radius: 5px;
+    color: white;
+ }
+ .t-box-s-a:hover{
+    background-color: rgba(254, 163, 1, 1);
+    padding: 7px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+        color: white;
+ }
+ .t-box-t-a:hover{
+    background-color: rgba(93, 88, 239, 1);
+    padding: 7px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+        color: white;
+ }
 /* hover efect end */
 
 /* shared style part start */
@@ -202,6 +234,7 @@ font-family: "Raleway", serif;
     display: flex;
     align-items: center;
     max-width: 1160px;
+    /* max-height: 481px; */
     margin: 80px auto;
     text-align: center;
     gap: 28px;
@@ -229,12 +262,13 @@ font-family: "Raleway", serif;
     max-width: 390px;
    box-shadow: 0px 0px 5px black;
     padding: 70px 60px 50px 70px;
+    /* padding: 60px 70px 60px 70px; */
     margin: 0 auto;;
     border-radius: 15px;
 }
 
     .t-box-width-height{
-   max-width: 347.52px;
+   max-width: 347px;
    max-height: 310px;
    
    
