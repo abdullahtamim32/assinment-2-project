@@ -69,6 +69,24 @@ border-radius: 5px;
     border-radius: 5px;
         color: white;
  }
+ /* 5 box button */
+ /* big box button */
+ .big-box-button:hover{
+background: linear-gradient(to right,yellow,green );
+color: rgb(0, 0, 0);
+ }
+ /* four small box */
+ .five-all-btn:hover{
+    background: linear-gradient(to right,yellow,green );
+color: rgb(0, 0, 0);
+padding: 10px;
+
+ }
+ /* last bt on footer */
+ .real-btn-end:hover{
+    background: linear-gradient(to right,yellow,green );
+    color: black;
+ }
 /* hover efect end */
 
 /* shared style part start */
@@ -241,15 +259,34 @@ font-family: "Raleway", serif;
     /* border: 2px solid; */
    
 }
+
+.three-box-parent-section-in-main{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1160px;
+    /* max-height: 481px; */
+    margin: 80px auto;
+    text-align: center;
+    gap: 28px;
+    /* border: 2px solid; */
+   
+}
+
+
 /* linier grdient style start*/
 /* first box gradient use */
 .first-box-parent-section-in-main {
     background-image: linear-gradient(to top, rgb(255, 254, 255) 80%, rgba(153, 209, 255, 0.678));
+    /* margin-left: 500px; */
+    /* width: 467px; */
+    /* height: 476px; */
+    /* max-height: 45px; */
 }
 /* second box gradient use */
 .second-box-parent-section-in-main{
     background-image: linear-gradient(to top, white 80%, rgba(240, 168, 0, 0.45));
-    
+    max-height: 425px;
 }
 /* third box gradient use */
 .third-box-parent-section-in-main{
@@ -278,18 +315,20 @@ font-family: "Raleway", serif;
 .t-box-f-a{
 color: rgba(100, 200, 255, 1);
 font-weight: bold;
+margin-left: -10px;
 /* margin-top: 35px; */
 }
 .t-box-s-a{
 color: rgba(240, 170, 0, 1);
 font-weight: bold;
 /* margin-top: 50px; */
+margin-left: 3px;
 
 }
 .t-box-t-a{
     color: rgba(135, 0, 255, 1);
     font-weight: bold;
-   
+   margin-left: -6px;
 
 }
 .three-box-first-img-parrent{
