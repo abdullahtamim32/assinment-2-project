@@ -1,0 +1,97 @@
+@media screen and (max-width: 575px) {
+    /* nav part */
+    /* body,html{
+        width: 100vw;
+    } */
+     html,body{
+        /* width: 860px; */
+        /* width: 800px; */
+      width: 800px;
+        
+     }
+    .logo-tittle,.nav-links-part,.nav-btn{
+     position: absolute;
+     display: none;
+    }
+    .dropdown-img-parent{
+        display: block;
+        position: absolute;
+        left: 740px;
+        top: 20px;
+    
+    }
+    /* banner part */
+    .banner-big-content {
+       max-width: 650px;
+       margin: 0 auto;
+       text-align: center;
+    }
+    .banner-small-content{
+        max-width: 450px;
+        margin: 0 auto;
+        margin-top: -30px;
+        text-align: center;
+    }
+    .banner-section-btn-parent{
+        text-align: center;
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    .banner-span{
+        display: block;
+    }
+    .total-banner-part-parent{
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+    
+    .banner-content-part-parent{
+ /* margin:auto auto; */
+
+ /* margin-right: px;
+ margin-top: 20px; */
+    }
+    .banner-img-part-prent-in-header{
+        
+    }
+    .ban-im-parent-part{
+        
+    }
+    .banner-im-main{
+      
+    }
+    /* standard curiculam and three box section */
+
+    /* three box */
+      
+   .three-box-parent-section-in-main{
+flex-direction: column;
+   }
+    
+
+/* five box section */
+.big-box{
+    display: none;
+}
+.total-5-box-main-parent{
+    justify-content: center;
+}
+/* footer part */
+footer{
+    height: 900px;
+    /* max-height: 900px; */
+}
+#total-logo-and-content-part{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 40px;
+}
+.so-ci-al-media-parent{
+    margin-top: 30px;
+}
+/* standrt curiculam section */
+.Standard-Curriculum-section{
+    text-align: center;
+}
+}

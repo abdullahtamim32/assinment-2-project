@@ -3,9 +3,42 @@
 /* font code end */
 *{
     font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
+  
   font-style: normal;
 }
+/* hover efect start */
+
+/* nav part */
+.home:hover{
+    background-color: rgba(254, 163, 1, 1);
+    color: white;
+    padding: 7px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.about-li:hover{
+    background-color: rgba(1, 172, 253, 1);
+    color: white;
+    padding: 7px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.faci:hover{
+background-color: rgba(5, 212, 223, 1);
+color:#fff;
+padding: 7px 10px;
+font-weight: 700;
+border-radius: 5px;
+}
+.admi:hover{
+background-color: rgba(93, 88, 239, 1);
+color: white;
+padding: 7px 10px;
+font-weight: 700;
+border-radius: 5px;
+}
+/* hover efect end */
+
 /* shared style part start */
 
 .orange{
@@ -84,7 +117,7 @@ color: rgba(93, 88, 239, 1)
 .dropdown-img-parent{
     /* height: 50px; */
     width: 57px;
-    /* display: none; */
+  display: none;
 }
 .main-dropdown-img{
     width: 100%;
@@ -444,7 +477,7 @@ text-align: center;
 /* main last btn style end*/
 /* footer section style start */
 footer{
-    /* max-width: 1670px; */
+
     height: 519px;
    
     
